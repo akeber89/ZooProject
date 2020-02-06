@@ -1169,6 +1169,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #e0072f; }
 
+#buy-tickets .form button[type="submit"] {
+    background: #f82249;
+    border: 0;
+    padding: 10px 40px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    cursor: pointer; }
+
+  #buy-tickets .form button[type="submit"]:hover {
+    background: #e0072f; }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
