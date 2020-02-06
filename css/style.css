@@ -160,10 +160,6 @@ h6 {
   margin: 0;
   max-height: 40px; }
 
-.pageTitle {
-  color: white;
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1377,3 +1373,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-width: thin;
   border-radius: 10px;
   padding: 20px; }
+
+.venue-info {
+  border: 5px solid red; }
