@@ -8,3 +8,9 @@ gulp.task('sass', function () {
 		.pipe(rename('style.css'))
 		.pipe(gulp.dest('./css/'));
 });
+
+gulp.task('watch', function () {
+    return gulp.watch('./scss/**/*.scss', gulp.series('sass'));
+  });
+
+  
