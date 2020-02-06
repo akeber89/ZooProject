@@ -1376,4 +1376,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-with-bg {
   background-color: lightgrey;
-  color: blue; }
+  color: darkblue; }
+
+#venue .venue-info {
+  background: url("../img/shark-bg.jpeg") top center no-repeat;
+  background-size: cover;
+  position: relative; }
