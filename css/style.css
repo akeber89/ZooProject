@@ -392,14 +392,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/T.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative; }
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(189, 196, 218, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1165,6 +1165,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #e0072f; }
 
+#buy-tickets .form button[type="submit"] {
+    background: #f82249;
+    border: 0;
+    padding: 10px 40px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    cursor: pointer; }
+
+  #buy-tickets .form button[type="submit"]:hover {
+    background: #e0072f; }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1374,7 +1386,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 10px;
   padding: 20px; }
 
+<<<<<<< HEAD
 #venue .venue-info {
   background: url("../img/shark-bg.jpeg") top center no-repeat;
   background-size: cover;
   position: relative; }
+=======
+.venue-info {
+  border: 5px solid red; }
+>>>>>>> master
