@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/akeber89/ZooProject#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^3.4.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
