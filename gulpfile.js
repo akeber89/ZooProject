@@ -1,4 +1,3 @@
-
 let gulp = require('gulp');
 let rename = require('gulp-rename');
 let sass = require('gulp-sass');
@@ -9,4 +8,3 @@ gulp.task('sass', function () {
 		.pipe(rename('style.css'))
 		.pipe(gulp.dest('./css/'));
 });
-
